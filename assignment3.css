@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: darkgrey;
+} 
+
+section{
+  display: inline-block;   
+}
+
+a {
+   text-decoration: none;
+   color:black;
+}
+       
+li {
+   list-style-type: none;
+   padding: 15px 0 15px 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size:medium;    
+   line-height: 20px;  
+}
+
+#stanga {
+  width: 18%;
+  padding: 0 0 10px;
+  box-sizing: border-box;
+  float: left;    
+  background-color: rgb(145, 143, 142); 
+  position: fixed;
+  height: 100%;  
+}
+
+#dreapta {
+  padding: 0 10px 0 15px;
+  
+  width: 82%;
+  float: right;
+  box-sizing: border-box;
+  background-color: darkgrey;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+figure {
+  padding: 0px;
+  margin: 0px 15px 0px 0px;
+  float: left;
+}
+
+q {
+  color:rgb(94, 56, 56);
+  font-style: oblique;
+}
+
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px auto;
+    
+}
+th {
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    text-align: center;
+}
+th,td {
+    border: 1px solid grey;
+}
+tr {
+    background-color: rgb(216, 212, 208);
+}
+tr.even {
+    background-color: rgb(153, 153, 150);
+}
+#heading {
+    background-color: rgb(97, 83, 62);
+    color:black;
+}
